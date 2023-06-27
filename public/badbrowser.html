@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ваш браузер устарел</title>
+    <style type="text/css">
+      *,
+      *::before,
+      *::after {
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+      }
+
+      html,
+      body {
+        line-height: 1.5;
+        font-size: 16px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+          Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+          sans-serif;
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+        text-size-adjust: 100%;
+        -webkit-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
+        -moz-text-size-adjust: 100%;
+        font-synthesis: none;
+        text-rendering: optimizeLegibility;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        -ms-overflow-style: scrollbar;
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+      }
+
+      @-ms-viewport {
+        width: device-width;
+      }
+
+      img {
+        transform: scale(0.999);
+        -o-transform: scale(0.999);
+        -ms-transform: scale(0.999);
+        -moz-transform: scale(0.999);
+        -webkit-transform: scale(0.999);
+        border-style: none;
+        vertical-align: middle;
+        -ms-interpolation-mode: bicubic;
+        max-width: 100%;
+        display: block;
+      }
+
+      a {
+        background-color: transparent;
+        -webkit-text-decoration-skip: objects;
+      }
+
+      p {
+        font-weight: 600;
+      }
+
+      body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .gap > * {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+      }
+
+      .justify {
+        display: flex;
+        justify-content: center;
+      }
+
+      .container {
+        display: flex;
+        justify-content: center;
+      }
+
+      .container a {
+        color: black;
+        text-decoration: none;
+      }
+
+      .item {
+        padding: 1rem;
+        text-align: center;
+        border-radius: 1rem;
+      }
+
+      .item:hover {
+        background-color: rgba(46, 7, 7, 0.04);
+      }
+
+      .title {
+        margin-top: 0.5rem;
+      }
+    </style>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta name="color-scheme" content="light" />
+  </head>
+  <body>
+    <div class="gap">
+      <div class="justify"><h1>Ваш браузер устарел</h1></div>
+      <div class="justify">
+        <p>Обновите свой браузер или установите один из рекомендуемых:</p>
+      </div>
+      <div class="container">
+        <div class="item">
+          <a
+            href="https://www.mozilla.org/ru/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="/firefox.png"
+              alt="Firefox"
+              decoding="async"
+              loading="lazy"
+            />
+            <div class="title">Firefox</div>
+          </a>
+        </div>
+        <div class="item">
+          <a
+            href="https://www.google.com/intl/ru_ALL/chrome/fallback/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="/chrome.png"
+              alt="Chrome"
+              decoding="async"
+              loading="lazy"
+            />
+            <div class="title">Chrome</div>
+          </a>
+        </div>
+        <div class="item">
+          <a
+            href="https://browser.yandex.ru/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="/yandex.png"
+              alt="Firefox"
+              decoding="async"
+              loading="lazy"
+            />
+            <div class="title">Yandex</div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

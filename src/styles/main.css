@@ -1,0 +1,39 @@
+body,
+#root,
+#root-box {
+  min-height: var(--chakra-vh);
+}
+
+#root-box {
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+:root {
+  --scrollbar-thumb-color: hsl(0, 0%, 70%);
+  --scrollbar-track-color: var(--chakra-colors-purple-50);
+  --header-height: 56px;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--scrollbar-thumb-color) var(--scrollbar-track-color);
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+  height: 15px;
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-thumb-color);
+  border: 3px solid transparent;
+  background-clip: content-box;
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--scrollbar-track-color);
+}
